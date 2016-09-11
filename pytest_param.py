@@ -1,5 +1,4 @@
 import re
-import pytest
 
 from random import choice
 
@@ -17,7 +16,6 @@ def pytest_addoption(parser):
         help='test all, first, last or random params (default is %(default)s)')
 
 
-@pytest.hookimpl(trylast=True)
 def pytest_collection_modifyitems(config, items):
     param = config.getoption('param')
     if param != 'all':

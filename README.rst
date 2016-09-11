@@ -23,7 +23,7 @@ Requirements
 You will need the following prerequisites to use pytest-param:
 
 - Python 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, PyPy or PyPy3
-- py.test 2.8 or newer
+- py.test 2.6 or newer
 
 Installation
 ------------

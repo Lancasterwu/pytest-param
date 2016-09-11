@@ -12,7 +12,7 @@ setup(
     py_modules=['pytest_param'],
     entry_points={'pytest11': ['param = pytest_param']},
     setup_requires=['setuptools_scm'],
-    install_requires=['pytest>=2.8.7'],
+    install_requires=['pytest>=2.6.0'],
     license='MIT license',
     keywords='py.test pytest param',
     classifiers=[
